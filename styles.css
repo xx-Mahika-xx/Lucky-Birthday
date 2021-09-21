@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    text-align: center;
+    background-image:url("https://t3.ftcdn.net/jpg/01/25/87/28/360_F_125872878_MhQtejJA7MRKQ94mIWUVumLrYjuZNSqa.jpg");
+    background-size: cover;
+}
+.mainDiv{
+    height: auto;
+    width: 70%;
+    padding:3rem;
+    margin: 5vh auto;
+    box-shadow: 2px 2px 8px 13px #424b6c;
+    background-image: url("	https://cdn.wallpapersafari.com/94/44/lyMNAf.png");
+    background-size: cover;
+}
+.privacyMsg{
+    box-shadow: rgb(221 192 192) 2px 2px 8px 3px;
+    background: rgb(190, 62, 62);
+    color: white;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container input{ 
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: black;
+}
+
+.container button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #424b6c;   
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    border: none;
+    border-width: medium;
+    cursor: pointer;
+    font-size: large;
+}
+
+.container button:hover{
+    background-color:rgb(241, 233, 158);
+    color: black;
+}
+
+.outputBox{
+    margin: 5px;
+    font-size: 1.2rem;
+    border-bottom: 3px solid grey;
+    padding: 5px 20px;
+    border-radius: 5px;
+}

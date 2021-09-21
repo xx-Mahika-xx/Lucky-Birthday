@@ -1,0 +1,1 @@
+This is a project in VanillaJS which take in your birthday and tell you whether its Lucky or not!

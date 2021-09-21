@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lucky Birthday</title>
+</head>
+
+<body>
+    <div id="privacy-policy" class='privacyMsg'>
+        Privacy Notice - We respect your privacy and we are not storing your data.   
+        <button id="privacy-button">x</button>
+    </div>
+    <div class="mainDiv">
+    
+        <h1>Is your Birthday Lucky ? </h1>
+        <p>Enter Your date of birth and lucky number below...</p>
+        
+        <div class="container">
+    
+            <label for="birthdayDate"><h3>Birthday date :</h3></label> 
+            <input type="date" id="birthdayDate"> 
+          
+            <label for="lucky-number"><h3>Lucky number :</h3></label>
+            <input type="number" min="0" class="luckyNum" id="lucky-number">
+        
+            <button id="check-number">Check number</button>
+    
+            <button onclick={location.reload()}>Reset</button>
+    
+            <div id="output-box" class="outputBox"> </div>
+    
+        </div>
+    </div>
+<script src="app.js" ></script>
+</body>
+</html>
